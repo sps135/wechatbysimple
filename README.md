@@ -5,7 +5,7 @@
 [![](https://storage.dreambigcareer.com/simple/mars-v1.2.2-red.svg)](https://www.baidu.com) [![](https://storage.dreambigcareer.com/simple/muduo-v2.0.0-blue.svg)](https://www.baidu.com)  [![](https://storage.dreambigcareer.com/simple/mvvm-databinding%20-yellowgreen.svg)](https://www.baidu.com)  [![](https://storage.dreambigcareer.com/simple/kotlin-1.3.11-orange.svg)](https://www.baidu.com) [![](https://storage.dreambigcareer.com/simple/wechat-7.0.0-brightgreen.svg)](https://www.baidu.com) 
 
 #### 项目预览
-![23917a9ef79a310b0a564d4dc7484f62.jpeg](en-resource://database/859:0)![11fe0cce24fee545a443ad10413bc848.jpeg](en-resource://database/865:0)![2042a60d77c9e0a300ab4b9d579c62ca.jpeg](en-resource://database/863:0)
+![23917a9ef79a310b0a564d4dc7484f62.jpeg](https://storage.dreambigcareer.com/simple/2.jpg)![11fe0cce24fee545a443ad10413bc848.jpeg](https://storage.dreambigcareer.com/simple/3%281%29.jpg)![2042a60d77c9e0a300ab4b9d579c62ca.jpeg](https://storage.dreambigcareer.com/simple/1.jpg)
 
 #### 项目结构
 ##### 依赖框架
