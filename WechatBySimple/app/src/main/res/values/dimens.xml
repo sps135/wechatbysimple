@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="option_item_margin_top">32dp</dimen>
+    <dimen name="option_item_margin_left">20dp</dimen>
+    <dimen name="option_item_margin_right">20dp</dimen>
+    <dimen name="option_item_height">48dp</dimen>
+
+    <dimen name="item_margin_left_and_right">25dp</dimen>
+    <dimen name="item_margin_top_and_bottom">15dp</dimen>
+</resources>

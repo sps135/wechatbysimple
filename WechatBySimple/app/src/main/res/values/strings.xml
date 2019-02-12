@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">WechatSimple</string>
+
+    <string name="friend_cicle">朋友圈</string>
+    <string name="scan">扫一扫</string>
+    <string name="shake">摇一摇</string>
+    <string name="people_nearby">附近的人</string>
+    <string name="shopping">购物</string>
+    <string name="game">游戏</string>
+    <string name="look_around">看一看</string>
+    <string name="search_around">搜一搜</string>
+
+    <string name="my_chat_account">微信号:%1$s</string>
+    <string name="album">相册</string>
+    <string name="collection">收藏</string>
+    <string name="wallet">钱包</string>
+    <string name="card_package">卡包</string>
+    <string name="jian_shu">简书</string>
+    <string name="csdn">CSDN</string>
+    <string name="oschina">码云</string>
+    <string name="github">GitHub</string>
+    <string name="emotion">表情</string>
+    <string name="setting">设置</string>
+    <string name="qr_code_card_tip">扫一扫上面的二维码图案，加我微信</string>
+
+    <string name="add_friend">添加朋友</string>
+    <string name="search">搜索</string>
+    <string name="send">发送</string>
+
+    <string name="please_to_talk">按住 说话</string>
+    <string name="shot">拍摄</string>
+    <string name="location">位置</string>
+    <string name="red_pack">红包</string>
+    <string name="wx_red_pack">微信红包</string>
+    <string name="file_out_of_date">文件已过期</string>
+    <string name="SET_TEXT_TYPING_TITLE">对方正在输入</string>
+    <string name="SET_VOICE_TYPING_TITLE">对方正在讲话</string>
+
+    <string name="voice_rec">手指上滑，取消发送</string>
+    <string name="voice_cancel">松开手指，取消发送</string>
+    <string name="voice_short">录音时间太短</string>
+    <string name="voice_failure">录音失败！</string>
+    <string name="send_audio_fail">发送语音失败，文件长度为0或语音权限没有开启</string>
+
+    <string name="remove_group_before_str">将</string>
+    <string name="remove_group_after_str">移出了群组</string>
+    <string name="created_group">%1$s创建了群组</string>
+    <string name="invitation">%1$s邀请%2$s加入了群组</string>
+    <string name="remove_group_member">%1$s将%2$s移出了群组</string>
+    <string name="remove_self">%1$s被%2$s移出了群组</string>
+    <string name="change_group_name">%1$s修改群名称为%2$s</string>
+    <string name="you">你</string>
+    <string name="other_party">对方</string>
+    <string name="divided_string">、</string>
+    <string name="group_notification_summary">[群组通知]</string>
+    <string name="quit_groups">退出了群组</string>
+    <string name="dismiss_groups">解散了群组</string>
+    <string name="join_group">加入了群组</string>
+    <string name="no_support_msg_type">不支持的消息类型</string>
+
+    <string name="copy">复制</string>
+    <string name="send_to_friend">发送给朋友</string>
+    <string name="recall">撤回</string>
+
+    <string name="recall_success">撤回成功</string>
+    <string name="recall_fail">撤回失败</string>
+    <string name="recall_one_message">%1$s撤回了一条消息</string>
+
+</resources>

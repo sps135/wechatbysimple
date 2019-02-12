@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+    <data>
+
+        <import type="android.text.TextUtils" />
+
+        <variable
+            name="login"
+            type="com.simple.wechatsimple.login.LoginViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ededed"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <LinearLayout
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="微信号/QQ号/邮箱登录"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="账号"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@null"
+                    android:hint="微信号/QQ号/邮箱登录"
+                    android:text="@={login.nameEditText}"
+                    android:textColorHint="@color/color_c9c9c9"
+                    android:textSize="18sp"
+                    app:addTextChangedListener="@{login.textWatcher}" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_c9c9c9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="密码"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:background="@null"
+                    android:hint="请填写密码"
+                    android:text="@={login.passwordEditText}"
+                    android:textColorHint="@color/color_c9c9c9"
+                    android:textSize="18sp"
+                    app:addTextChangedListener="@{login.textWatcher}" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                android:background="@color/color_c9c9c9" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="80dp"
+                android:background="@{login.loginEnable ? @drawable/shape_solid_51aa37_radius_5 : @drawable/shape_stroke_9ec697_solid_b0dca8_radius_5}"
+                android:gravity="center"
+                android:onClick="@{() -> login.loginAction()}"
+                android:text="登录"
+                android:textColor="#dff1dc"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
+

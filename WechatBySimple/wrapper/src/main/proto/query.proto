@@ -1,0 +1,58 @@
+syntax = "proto2";
+package muduo;
+option java_package = "com.proto.imlib";
+option java_outer_classname = "Muduo";
+
+message Response {
+    required int32 error_code = 1;
+    optional string error_msg = 2;
+
+    enum ErrorCode {
+        NO_ERROR = 1;
+        DATABASE_EEROR = 2;
+        LOG_OUT = 3;
+    }
+}
+
+message LoginRequest {
+    required int64 user_id = 1;
+}
+
+message UserInfo {
+    required string nickname = 1;
+
+    required string portrait = 2;
+}
+
+message IMMessage {
+    required string id = 1;
+
+    required int32 fromUserId = 2;
+
+    required ConversationType conversationType = 4;
+
+    required MessageType messageType = 3;
+
+    optional UserInfo userInfo = 5;
+
+    optional int64 targetId = 6;
+
+    optional int64 createAt = 7;
+
+    required string extras = 8;
+
+    enum ConversationType {
+        PRIVATE = 1;
+        GROUP = 2;
+    }
+
+    enum MessageType {
+        TEXT_MESSGAGE = 1;
+        IMAGE_MESSGAGE = 2;
+        VOICE_MESSGAGE = 3;
+    }
+}
+
+message HistoryMessage {
+    required int32 id = 1;
+}

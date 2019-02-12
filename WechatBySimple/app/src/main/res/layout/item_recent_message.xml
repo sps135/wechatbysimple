@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+    <data>
+
+        <import type="com.simple.wechatsimple.util.UnreadCountManager" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="item"
+            type="com.simple.wechatsimple.model.ConversationItemModel" />
+
+        <variable
+            name="itemListener"
+            type="com.simple.wechatsimple.recent.RecentMessageAdapter.OnItemClickListener" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/flRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_common_item"
+        android:onClick="@{() -> itemListener.onItem(item)}">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rlHeader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="@dimen/item_margin_top_and_bottom"
+                        android:layout_marginBottom="@dimen/item_margin_top_and_bottom">
+
+                        <!--头像-->
+                        <ImageView
+                            android:id="@+id/ivHeader"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerInParent="true"
+                            android:scaleType="fitXY"
+                            app:error="@{@drawable/portrait_placeholder}"
+                            app:imageUrl="@{item.portraitUrl}"
+                            app:placeHolder="@{@drawable/portrait_placeholder}"
+                            app:radius="@{5}" />
+                    </RelativeLayout>
+
+                    <!--未读消息数-->
+                    <TextView
+                        android:id="@+id/tvCount"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignTop="@id/rlHeader"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginTop="-10dp"
+                        android:layout_toRightOf="@id/rlHeader"
+                        android:background="@drawable/shape_red_dot"
+                        android:gravity="center"
+                        android:text="@{String.valueOf(UnreadCountManager.getInstance().getTargetUnreadCount(item.targetId))}"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:visibility="@{UnreadCountManager.getInstance().getTargetUnreadCount(item.targetId) == 0? View.INVISIBLE : View.VISIBLE}" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <!--昵称或群名-->
+                        <TextView
+                            android:id="@+id/tvDisplayName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@{item.title}"
+                            android:textColor="@color/color_353535"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tvTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@{item.date}"
+                            android:textColor="@color/color_bbbbbb"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                    <!--消息-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tvContent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:text="@{item.content}"
+                            android:textColor="@color/color_999999"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="80dp"
+                android:background="@color/color_d9d9d9"/>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</layout>
