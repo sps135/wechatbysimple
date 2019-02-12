@@ -30,6 +30,7 @@
 | [wrapper](https://github.com/ftylitak/qzxing) | 利用mars为imlib提供TCP链接|
 
 [IMServer](https://github.com/ftylitak/qzxing)：IM端代码
+
 [IMApiServer](https://github.com/ftylitak/qzxing)：提供基本Api
 #### 如何运行部署项目：
 ##### 1.编译Android端代码
