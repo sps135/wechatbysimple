@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="codec"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/hgfs/share/codec"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/hgfs/share/codec"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/hgfs/share/codec"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codec">
+				<Option output="/mnt/hgfs/share/codec/codec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/hgfs/share/codec/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 codec"/>
+					<CompileFile command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="codec/fast">
+				<Option output="/mnt/hgfs/share/codec/codec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/hgfs/share/codec/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 codec/fast"/>
+					<CompileFile command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/mnt/hgfs/share/codec/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/hgfs/share/codec/CMakeCache.txt">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/CMakeLists.txt">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/Makefile">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/client.cc">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/cmake_install.cmake">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/codec.cc">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/codec.h">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/codec_test.cc">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/dispatcher.h">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/dispatcher_lite.h">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/dispatcher_lite_test.cc">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/dispatcher_test.cc">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/libprotobuf_codec.a">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/libquery_proto.a">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/protobuf_client">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/protobuf_codec_test">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/protobuf_dispatcher_lite_test">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/protobuf_dispatcher_test">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/protobuf_server">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/query.pb.cc">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/query.pb.h">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/query.proto">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/server.cc">
+			<Option target="codec"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/share/codec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
