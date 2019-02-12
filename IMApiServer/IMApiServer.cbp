@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="IMApiServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/root/CLionProjects/IMApiServer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/root/CLionProjects/IMApiServer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/root/CLionProjects/IMApiServer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IMApiServer">
+				<Option output="/root/CLionProjects/IMApiServer/IMApiServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/CLionProjects/IMApiServer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/zlib/include"/>
+					<Add directory="/usr/local/include/mysql++"/>
+					<Add directory="/usr/include/mysql"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 IMApiServer"/>
+					<CompileFile command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IMApiServer/fast">
+				<Option output="/root/CLionProjects/IMApiServer/IMApiServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/root/CLionProjects/IMApiServer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/zlib/include"/>
+					<Add directory="/usr/local/include/mysql++"/>
+					<Add directory="/usr/include/mysql"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 IMApiServer/fast"/>
+					<CompileFile command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/gmake -f &quot;/root/CLionProjects/IMApiServer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/root/CLionProjects/IMApiServer/BaseData.h">
+			<Option target="IMApiServer"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/IMApiServer/CJsonObjectBase.cpp">
+			<Option target="IMApiServer"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/IMApiServer/CJsonObjectBase.h">
+			<Option target="IMApiServer"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/IMApiServer/IMServer.cpp">
+			<Option target="IMApiServer"/>
+		</Unit>
+		<Unit filename="/root/CLionProjects/IMApiServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
