@@ -21,12 +21,14 @@
 | Protobuf | 超高性能通信协议 |
 ##### 项目结构
 [WechatBySimple](https://github.com/ftylitak/qzxing)：Android端代码
+
 | Module |描述  |
 | --- | --- |
 | [app](https://github.com/ftylitak/qzxing) |UI层  |
 | [imlib](https://github.com/ftylitak/qzxing) | IM封装 |
 | [uploadservice](https://github.com/ftylitak/qzxing) | 为imlib提供ftp服务 |
 | [wrapper](https://github.com/ftylitak/qzxing) | 利用mars为imlib提供TCP链接|
+
 [IMServer](https://github.com/ftylitak/qzxing)：IM端代码
 [IMApiServer](https://github.com/ftylitak/qzxing)：提供基本Api
 #### 如何运行部署项目：
