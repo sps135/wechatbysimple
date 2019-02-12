@@ -24,14 +24,14 @@
 
 | Module |描述  |
 | --- | --- |
-| [app](https://github.com/ftylitak/qzxing) |UI层  |
-| [imlib](https://github.com/ftylitak/qzxing) | IM封装 |
-| [uploadservice](https://github.com/ftylitak/qzxing) | 为imlib提供ftp服务 |
-| [wrapper](https://github.com/ftylitak/qzxing) | 利用mars为imlib提供TCP链接|
+| [app](https://github.com/sps135/wechatbysimple/tree/master/WechatBySimple/app) |UI层  |
+| [imlib](https://github.com/sps135/wechatbysimple/tree/master/WechatBySimple/imlib) | IM封装 |
+| [uploadservice](https://github.com/sps135/wechatbysimple/tree/master/WechatBySimple/uploadservice) | 为imlib提供ftp服务 |
+| [wrapper](https://github.com/sps135/wechatbysimple/tree/master/WechatBySimple/wrapper) | 利用mars为imlib提供TCP链接|
 
-[IMServer](https://github.com/ftylitak/qzxing)：IM端代码
+[IMServer](https://github.com/sps135/wechatbysimple/tree/master/IMServer)：IM端代码
 
-[IMApiServer](https://github.com/ftylitak/qzxing)：提供基本Api
+[IMApiServer](https://github.com/sps135/wechatbysimple/tree/master/WechatBySimple)：提供基本Api
 #### 如何运行部署项目：
 ##### 1.编译Android端代码
 环境要求：
